@@ -141,14 +141,14 @@ OSStatus
 CNavSaveDialog::CreatePutFileDialog( NavEventProcPtr eventHandler )
 {
     OSStatus status = paramErr;
-	static const CFStringRef extensionCFStr = CFSTR( ".mlte" );
+	static const CFStringRef extensionCFStr = CFSTR( ".rtf" );
 	CFStringRef windowTitleCFStr;
 	CFMutableStringRef defaultFileNameCFStr = CFStringCreateMutable( NULL /*alloc*/, 255 /*maxLen*/ );
 	
 	require( fNavDialogRef == NULL && fDocumentWindowRef != NULL, FAIL );
 	
     if( fEventHandler == NULL && eventHandler != NULL )
-		fEventHandler = ::NewNavEventUPP( eventHandler );
+		fEventHandler = NewNavEventUPP( eventHandler );
 	
     if( fEventHandler != NULL )
     {
@@ -404,15 +404,17 @@ CNavSaveDialog::SetCurrentFormatMenuSelection( UInt32 index )
 void
 CNavSaveDialog::InitPopUpMenuExtensionCFArray()
 {
-	static const CFStringRef menuItemNames[] = { CFSTR("MLTE Format"),
+	static const CFStringRef menuItemNames[] = { 
 									CFSTR( "Rich Text Format (RTF)" ),
 									CFSTR( "Plain Unicode Format"),
-									CFSTR( "Plain Text Format") };
+									CFSTR( "Plain Text Format"),
+									CFSTR("MLTE Format") }; //will remove "MLTE Format" later
 
-	static const CFStringRef fileExtensionNames[] = { CFSTR(".mlte"),
+	static const CFStringRef fileExtensionNames[] = {
 									CFSTR( ".rtf" ),
 									CFSTR( ".utxt"),
-									CFSTR( ".txt") };
+									CFSTR( ".txt"),
+									CFSTR(".mlte") };
 									
 	if( fPopUpMenuItemNamesCFArray == NULL ) // lazy init
 	{

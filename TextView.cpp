@@ -1132,7 +1132,7 @@ AddTextToTheTextView( HIViewRef textView )
 {
 	OSStatus status = paramErr;
 	CFURLRef fileURLRef = NULL;
-	fileURLRef = CFBundleCopyResourceURL( CFBundleGetMainBundle(), CFSTR("MLTEShowcaseSample.mlte"), NULL, NULL );
+	fileURLRef = CFBundleCopyResourceURL( CFBundleGetMainBundle(), CFSTR("MLTEShowcaseSample.rtf"), NULL, NULL );
 	if( fileURLRef != NULL )
 	{
 		CMLTEViewData* mlteData = NULL;

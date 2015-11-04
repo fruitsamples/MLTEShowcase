@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160443670B6054F400253B90 /* MLTEShowcaseSample.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 160443660B6054F400253B90 /* MLTEShowcaseSample.rtf */; };
+		180EAABB0677D02C006A18D0 /* NavSaveDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180EAAB90677D02C006A18D0 /* NavSaveDialog.cpp */; };
+		1830270006668043003BA807 /* HelpTextFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183026EB06668043003BA807 /* HelpTextFrame.cpp */; };
+		1830270306668043003BA807 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183026EE06668043003BA807 /* main.cpp */; };
+		1830270606668043003BA807 /* MLTEShowcaseUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183026F106668043003BA807 /* MLTEShowcaseUtils.cpp */; };
+		1830270C06668043003BA807 /* TextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183026F706668043003BA807 /* TextView.cpp */; };
+		1830270E06668043003BA807 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183026F906668043003BA807 /* version.plist */; };
+		1854915A0678FC5500965536 /* rainbowpark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185491590678FC5500965536 /* rainbowpark.jpg */; };
+		8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		935FC5B406774BBD00F9E274 /* NavOpenDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935FC5B206774BBD00F9E274 /* NavOpenDialog.cpp */; };
+		935FC676067761C900F9E274 /* NavUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935FC674067761C900F9E274 /* NavUtils.cpp */; };
+		936F3C9F06800E5B002DE69D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936F3C9E06800E5B002DE69D /* Localizable.strings */; };
+		93C7BA47066D2CAE00045152 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93C7BA45066D2CAE00045152 /* main.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		160443660B6054F400253B90 /* MLTEShowcaseSample.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MLTEShowcaseSample.rtf; sourceTree = "<group>"; };
+		180EAAB80677D02C006A18D0 /* NavSaveDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSaveDialog.h; sourceTree = "<group>"; };
+		180EAAB90677D02C006A18D0 /* NavSaveDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavSaveDialog.cpp; sourceTree = "<group>"; };
+		183026EB06668043003BA807 /* HelpTextFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = HelpTextFrame.cpp; sourceTree = "<group>"; };
+		183026EC06668043003BA807 /* HelpTextFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HelpTextFrame.h; sourceTree = "<group>"; };
+		183026ED06668043003BA807 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		183026EE06668043003BA807 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		183026EF06668043003BA807 /* MLTEShowcase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MLTEShowcase_Prefix.pch; sourceTree = "<group>"; };
+		183026F006668043003BA807 /* MLTEShowcaseDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MLTEShowcaseDefines.h; sourceTree = "<group>"; };
+		183026F106668043003BA807 /* MLTEShowcaseUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MLTEShowcaseUtils.cpp; sourceTree = "<group>"; };
+		183026F206668043003BA807 /* MLTEShowcaseUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MLTEShowcaseUtils.h; sourceTree = "<group>"; };
+		183026F706668043003BA807 /* TextView.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TextView.cpp; sourceTree = "<group>"; };
+		183026F806668043003BA807 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		183026F906668043003BA807 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = version.plist; sourceTree = "<group>"; };
+		185491590678FC5500965536 /* rainbowpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowpark.jpg; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		89CEB69D07B06DB9004459AA /* MLTEShowcaseREADME.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MLTEShowcaseREADME.rtf; sourceTree = "<group>"; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D0C4E970486CD37000505A6 /* MLTEShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLTEShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		935FC5B106774BBD00F9E274 /* NavOpenDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavOpenDialog.h; sourceTree = "<group>"; };
+		935FC5B206774BBD00F9E274 /* NavOpenDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavOpenDialog.cpp; sourceTree = "<group>"; };
+		935FC673067761C900F9E274 /* NavUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavUtils.h; sourceTree = "<group>"; };
+		935FC674067761C900F9E274 /* NavUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavUtils.cpp; sourceTree = "<group>"; };
+		93C7BA46066D2CAE00045152 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183027110666805B003BA807 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				180EAAB80677D02C006A18D0 /* NavSaveDialog.h */,
+				180EAAB90677D02C006A18D0 /* NavSaveDialog.cpp */,
+				935FC5B106774BBD00F9E274 /* NavOpenDialog.h */,
+				935FC5B206774BBD00F9E274 /* NavOpenDialog.cpp */,
+				935FC673067761C900F9E274 /* NavUtils.h */,
+				935FC674067761C900F9E274 /* NavUtils.cpp */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E970486CD37000505A6 /* MLTEShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* MLTEShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				89CEB69D07B06DB9004459AA /* MLTEShowcaseREADME.rtf */,
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				183027110666805B003BA807 /* Nav */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = MLTEShowcase;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				183026EF06668043003BA807 /* MLTEShowcase_Prefix.pch */,
+				183026F006668043003BA807 /* MLTEShowcaseDefines.h */,
+				183026EE06668043003BA807 /* main.cpp */,
+				183026F806668043003BA807 /* TextView.h */,
+				183026F706668043003BA807 /* TextView.cpp */,
+				183026EC06668043003BA807 /* HelpTextFrame.h */,
+				183026EB06668043003BA807 /* HelpTextFrame.cpp */,
+				183026F206668043003BA807 /* MLTEShowcaseUtils.h */,
+				183026F106668043003BA807 /* MLTEShowcaseUtils.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				160443660B6054F400253B90 /* MLTEShowcaseSample.rtf */,
+				185491590678FC5500965536 /* rainbowpark.jpg */,
+				93C7BA45066D2CAE00045152 /* main.nib */,
+				183026F906668043003BA807 /* version.plist */,
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				936F3C9E06800E5B002DE69D /* Localizable.strings */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				89CEB63F07B06D47004459AA /* Linked Frameworks */,
+				89CEB48C07B06D30004459AA /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		89CEB48C07B06D30004459AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */,
+				4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		89CEB63F07B06D47004459AA /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* MLTEShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AC27710A792C75007E71E4 /* Build configuration list for PBXNativeTarget "MLTEShowcase" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+				188C34FC071CFFB100533008 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLTEShowcase;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MLTEShowcase;
+			productReference = 8D0C4E970486CD37000505A6 /* MLTEShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 16AC276D0A792C75007E71E4 /* Build configuration list for PBXProject "MLTEShowcase" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* MLTEShowcase */;
+			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
+			targets = (
+				8D0C4E890486CD37000505A6 /* MLTEShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */,
+				936F3C9F06800E5B002DE69D /* Localizable.strings in Resources */,
+				1830270E06668043003BA807 /* version.plist in Resources */,
+				93C7BA47066D2CAE00045152 /* main.nib in Resources */,
+				1854915A0678FC5500965536 /* rainbowpark.jpg in Resources */,
+				160443670B6054F400253B90 /* MLTEShowcaseSample.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188C34FC071CFFB100533008 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/tcsh;
+			shellScript = "xcodebuild installsrc SRCROOT=$DSTROOT/Developer/Examples/Carbon/MLTEShowcase\n/bin/rm -rf $DSTROOT/Developer/Examples/Carbon/MLTEShowcase/build/\n/usr/sbin/chown root:wheel $DSTROOT/Developer/Examples/Carbon/MLTEShowcase/*\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830270006668043003BA807 /* HelpTextFrame.cpp in Sources */,
+				1830270306668043003BA807 /* main.cpp in Sources */,
+				1830270606668043003BA807 /* MLTEShowcaseUtils.cpp in Sources */,
+				1830270C06668043003BA807 /* TextView.cpp in Sources */,
+				935FC5B406774BBD00F9E274 /* NavOpenDialog.cpp in Sources */,
+				935FC676067761C900F9E274 /* NavUtils.cpp in Sources */,
+				180EAABB0677D02C006A18D0 /* NavSaveDialog.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		936F3C9E06800E5B002DE69D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183026ED06668043003BA807 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		93C7BA45066D2CAE00045152 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C7BA46066D2CAE00045152 /* English */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AC276E0A792C75007E71E4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+			};
+			name = Development;
+		};
+		16AC276F0A792C75007E71E4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		16AC27700A792C75007E71E4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		16AC27720A792C75007E71E4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MLTEShowcase_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = $DSTROOT/Developer/Examples/Carbon/MLTEShowcase;
+				PRODUCT_NAME = MLTEShowcase;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		16AC27730A792C75007E71E4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MLTEShowcase_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = $DSTROOT/Developer/Examples/Carbon/MLTEShowcase;
+				PRODUCT_NAME = MLTEShowcase;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		16AC27740A792C75007E71E4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MLTEShowcase_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = $DSTROOT/Developer/Examples/Carbon/MLTEShowcase;
+				PRODUCT_NAME = MLTEShowcase;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AC276D0A792C75007E71E4 /* Build configuration list for PBXProject "MLTEShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AC276E0A792C75007E71E4 /* Development */,
+				16AC276F0A792C75007E71E4 /* Deployment */,
+				16AC27700A792C75007E71E4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		16AC27710A792C75007E71E4 /* Build configuration list for PBXNativeTarget "MLTEShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AC27720A792C75007E71E4 /* Development */,
+				16AC27730A792C75007E71E4 /* Deployment */,
+				16AC27740A792C75007E71E4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

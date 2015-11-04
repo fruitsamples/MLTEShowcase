@@ -52,7 +52,7 @@ CNavOpenDialog::CNavOpenDialog()
 CNavOpenDialog::~CNavOpenDialog()
 {
     this->ReleaseNavDialogRef();
-    ::DisposeNavEventUPP( fEventHandler );
+    DisposeNavEventUPP( fEventHandler );
 	
 	// we're not using the popup menu at this time so it should always be NULL
 	if( fPopuMenuItemNamesCFArray != NULL )
@@ -71,7 +71,7 @@ CNavOpenDialog::Init()
 	// we're not using the popup menu at this time so it should always be NULL
 	fPopuMenuItemNamesCFArray = NULL;
 	
-    status = ::NavGetDefaultDialogCreationOptions( &fNavDialogOptions );
+    status = NavGetDefaultDialogCreationOptions( &fNavDialogOptions );
 	
 	require_noerr( status, FAIL );
     fNavDialogOptions.modality = kWindowModalityAppModal;
@@ -109,7 +109,7 @@ CNavOpenDialog::CreateGetFileDialog( NavEventProcPtr eventHandler )
 		fEventHandler = NULL;
 	}
 	if( eventHandler != NULL )
-		fEventHandler = ::NewNavEventUPP( eventHandler );
+		fEventHandler = NewNavEventUPP( eventHandler );
 	
     if( fEventHandler != NULL )
     {
@@ -117,7 +117,7 @@ CNavOpenDialog::CreateGetFileDialog( NavEventProcPtr eventHandler )
 		// assumption: fPreviewer, and fObjectFilter are either NULL or correctly setup
 		// before this function was called.
 		
-        status = ::NavCreateGetFileDialog( &fNavDialogOptions,
+        status = NavCreateGetFileDialog( &fNavDialogOptions,
                                             NULL /*typeList*/, // the old way to filter files
                                             fEventHandler /*event callback*/,
                                             fPreviewer/*preview callback*/,

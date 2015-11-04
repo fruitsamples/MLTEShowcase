@@ -67,7 +67,7 @@ main(int argc, char* argv[])
     OSStatus status;
 		
    // Can we run this particular demo application?
-	long response;
+	SInt32 response;
 	status = Gestalt(gestaltSystemVersion, &response);
 	Boolean ok = ((status == noErr) && (response >= 0x00001030));
 	if (!ok)
